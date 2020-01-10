@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <title>MediaDeveloper</title>
+  <meta name="author" content="Fabian Hendriks" />
+  <meta name="keywords" content="Mediacollege, Amsterdam, Mediadeveloper" />
+  <meta name="viewport" content="width = device-width, initial-scale = 1" />
+</head>
+
+<body>
+  <nav>
+    <a href="http://ma-web.nl">
+      <img src="img/Logo_Ma.svg" alt="Logo Mediacollege" /></a>
+    <ul>
+      <li class="Ma">
+        Mediacollege Amsterdam
+      </li>
+      <li>
+        <a href="#opleiding">De opleiding</a>
+      </li>
+      <li>
+        <a href="#wat">Wat te doen na deze opleiding?</a>
+      </li>
+      <li>
+        <a href="#waarom">Waarom Ma?</a>
+      </li>
+      <li class="cta">
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <header>
+    <video width="100%" controls loop>
+      <source src="videos/project-op.mp4" type="video/mp4" />
+      Jouw browser ondersteund de video tag niet.
+    </video>
+    <h1>Wil jij de nieuwe generatie Developer worden?</h1>
+  </header>
+  <main>
+    <section class="section1">
+      <h2><a id="opleiding">De Opleiding</a></h2>
+      <p>
+        Als mediadeveloper programmeer en onderhoud je (mobiele) websites,
+        apps en webapplicaties. Je leert niet alleen veel over technologie en
+        programmeren, maar ook over de basis van digitale vormgeving. Want een
+        product moet niet alleen goed werken, ook het idee erachter moet goed
+        zijn en het product moet er aantrekkelijk uitzien. Ook leer je
+        samenwerken met mediavormgevers, want zij nemen later de vormgeving
+        voor hun rekening. Je opleiding begint met een periode waarin je samen
+        met studenten van de opleiding Gamedeveloper de lessen volgt. Na deze
+        periode kies je ervoor om verder te studeren als mediadeveloper.
+      </p>
+      <h3>Niveau</h3>
+      <p>
+        Mediadeveloper is een 4 jaar durende niveau 4 opleiding. De opleiding
+        heeft plek voor maximaal 60 studenten.
+      </p>
+      <h3>Vooropleiding</h3>
+      <p>
+        Voor deze opleiding moet je minimaal een VMBO-kb diploma behaald
+        hebben.
+      </p>
+      <h3>Wat leer je?</h3>
+      <p>
+        Als mediadeveloper programmeer en onderhoud je (mobiele) websites,
+        apps en webapplicaties. Je leert niet alleen veel over technologie en
+        programmeren, maar ook over de basis van digitale vormgeving. Want een
+        product moet niet alleen goed werken, ook het idee erachter moet goed
+        zijn en het product moet er aantrekkelijk uitzien. Ook leer je
+        samenwerken met mediavormgevers, want zij nemen later de vormgeving
+        voor hun rekening. Je opleiding begint met een periode waarin je samen
+        met studenten van de opleiding Gamedeveloper de lessen volgt. Na deze
+        periode kies je ervoor om verder te studeren als mediadeveloper.
+      </p>
+    </section>
+
+    <img class="image1" src="img/classroom.jpg" alt="het klaslokaal" />
+    <img class="image2" src="img/programming.jpg" alt="Programmeren" />
+
+    <section class="section2">
+      <h2><a id="wat">Wat te doen na deze opleiding?</a></h2>
+      <p>
+        Na het afronden van deze opleiding kan je ervoor kiezen om te gaan
+        werken of om door te studeren.
+      </p>
+      <h3>Werken</h3>
+      <p>
+        Bedrijven zitten momenteel te springen om goede programmeurs. Na je
+        opleiding kun je als web- of appdeveloper gaan werken bij bedrijven
+        die websites en apps ontwikkelen.
+      </p>
+      <h3>Doorstuderen</h3>
+      <p>
+        Met een diploma niveau 4 kun je doorstuderen op een aantal hbo's,
+        zoals Software Engineering bij de Hogeschool van Amsterdam. Je zult
+        merken dat je met de bij Ma opgedane vakkennis een vliegende start
+        maakt in het hbo.
+      </p>
+    </section>
+
+    <section class="section3">
+      <h2><a id="waarom">Waarom Ma?</a></h2>
+      <p>
+        Ma helpt je jouw speciale talent te ontdekken en daar je beroep van te
+        maken. We kennen de bedrijven in en rond Amsterdam en weten wat jouw
+        toekomstige werkgevers belangrijk vinden. Want Ma is een vakschool. Al
+        ruim 100 jaar leiden we studenten zo op dat ze direct aan het werk
+        kunnen. Tijdens je opleiding koppelen we je aan bedrijven. En we laten
+        je samenwerken aan projecten met studenten van andere opleidingen. Bij
+        dit alles begeleiden we je intensief. Want we willen dat alle
+        studenten hun diploma halen.
+      </p>
+    </section>
+
+    <img class="image3" src="img/hoofdgebouw.png" alt="Hoofdgebouw Contactweg" />
+
+    <section class="contact">
+      <h2><a id="contact">Contact</a></h2>
+      <p>
+        <i class="material-icons" style="font-size: 2em;">location_city</i>
+        &nbsp;Hoofdgebouw:<br />
+        Contactweg 36<br />
+        1014 AN Amsterdam
+      </p>
+      <p>
+        <i class="material-icons" style="font-size: 2em;">local_phone</i>
+        &nbsp;020 850 95 00
+      </p>
+      <p>
+        <i class="material-icons" style="font-size: 2em;">email</i>
+        <a href="mailto:info@ma-web.nl">&nbsp;info@ma-web.nl</a>
+      </p>
+    </section>
+    <!-- Form -->
+    <section>
+      <h2>Meer informatie? Vul dan het onderstaande formulier in.</h2>
+      <form action="contact.php" method="POST">
+        <label for="name"> Naam:</label>
+        <input type="text" id="name" name="name" placeholder="Voornaam Achternaam" required />
+
+        <label for="mail">Email:</label>
+        <input type="email" placeholder="Bijv. faker19195@gmail.com " id="mail" name="email" required />
+
+        <label for="subject">Onderwerp:</label>
+        <input type="text" placeholder="Informatie" id="subject" name="subject" required />
+
+        <label for="message">Bericht:</label>
+        <textarea name="message" id="message" cols="30" rows="5" placeholder="Typ hier je bericht" required></textarea>
+
+        <input class=="submit" type="submit" name="submit" value="Verstuur" />
+      </form>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <p>
+        "<span class="marking">Back-end programming</span><br />
+        vind ik het leukste, want dan kun je de ‘achterkant’ van een site
+        bouwen. Als er iets fout is, moet je dat
+        <span class="marking">uitzoeken</span>,<br />
+        want je ziet het niet direct."<br /><br />
+        <span class="subscript">Rico, student Mediadeveloper</span>
+      </p>
+      <img src="img/rico.jpg" alt="Rico Student Mediadeveloper" />
+    </footer>
+  </main>
+</body>
+
+</html>
